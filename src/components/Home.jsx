@@ -60,9 +60,11 @@ export default function Home() {
 
         {/* <button onClick={increment} style={{cursor:'pointer'}}>Increment Score</button>
         <button onClick={decrement} style={{cursor:'pointer'}}>Decrement Score</button> */}
+        
         {/* {runs>1 && <h2>Well done!</h2>}
         {wickets>10 && <h2>Oops! Game over</h2>}
         <h3>Your Final Score is: {runs}</h3> */}
+
         <button onClick={run}>Run</button>
         <button onClick={wicket}>Wicket</button>
         <hr />
